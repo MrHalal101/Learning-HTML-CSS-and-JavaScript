@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Types of lists in HTML</h1>
+    <hr>
+    <a href="page_2.html" title="This takes you back to Page 2">
+        This takes you back to Page 2
+    </a>
+    <br>
+    <!-- Created a Div which takes you to the bottom of the Page -->
+    <a href="#Tables" title="This takes you down below">
+        Tables in HTML (This takes you straight to it)
+    </a>
+
+    <!-- <ul> Means Unordered List and <li> means list items -->
+    <h2><ins>Unordered Lists (ie. Bullet Points)</ins></h2>
+    <h2>Pizza Ingredients</h3>
+    <ul>
+        <li>Pizza Dough
+            <!-- This is a Nested List -->
+            <ul>
+                <li>Yeast</li>
+                <li>Flour</li>
+                <li>Water</li>
+            </ul>
+        </li>
+        <li>Tomato Sauce</li>
+        <li>Parmesan Cheese</li>
+        <li>Chicken Pieces</li>
+        <li>Pepperoni</li>
+    </ul>
+
+    <!-- If inside the <ol> you write type= you can change the 1 2 3 to A B C -->
+    <h2><ins>Ordered Lists (ie. Numbered/Lettered)</ins></h2>
+    <h2>How to make a Pizza</h3>
+    <ol>
+        <li>Roll out the Dough</li>
+        <li>Lay the Tomato Sauce over the Dough</li>
+        <li>Grate the Cheese and Spinkle over Sauce</li>
+        <li>Add the rest of your Toppings</li>
+        <li>Cook you Pizza in the Oven</li>
+    </ol>
+
+    <!-- For Description Lists we use <dt> (Descrption Term) and <dd> (Description Definition) tags -->
+    <h2><ins>Description Lists (ie. Bullet Points)</ins></h2>
+    <h2>Differnce between HTML, CSS and JavaScript</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>This gives <b>Structure</b> to a Webpage</dd>
+        <dt>CSS</dt>
+        <dd>This gives <b>Style</b> to a Webpage</dd>
+        <dt>HTML</dt>
+        <dd>This gives <b>Functionality</b> to a Webpage</dd>
+        
+    </dl>
+
+    <br>
+    <h2><ins>Behind the Scenes of this Page (Learning Points):</ins></h2>
+    <img src="html_lists.png" title="Behind the Scenes of this Page">
+
+<!------------------------------------------------------------------------>
+    <hr>
+    <!-- Creating a Div which will take you straight here when you click a link inserted above -->
+    <div id="Tables"><h1>Tables in HTML</h1></div>
+    <hr>
+
+    <h2>Store Hours</h2>
+    <!-- <table> tag creates a table format and can colour the Borders-->
+    <table bgcolor="Black" width="700">
+        <!-- <tr> means Table Row -->
+        <!-- <th> means Table Header which is Inherently Bold and Centered, Needs to be within <tr> tags -->
+        <tr bgcolor="LightGrey">
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </tr>
+        <!-- <td> means Title Data, Needs to be within <tr> tags-->
+        <tr bgcolor="White" align="center">
+            <td>9am-5pm</td>
+            <td>9am-5pm</td>
+            <td>9am-5pm</td>
+            <td>9am-5pm</td>
+            <td>9am-3pm</td>
+            <td>Closed</td>
+            <td>Closed</td>
+        </tr>
+    </table>
+
+    <br>
+    <h2><ins>How this is actually done/Behind the Scenes (My Learning):</ins></h2> 
+    <img src="html_tables.png" title="Behind the Scenes of this Page">
+
+</body>
+</html>

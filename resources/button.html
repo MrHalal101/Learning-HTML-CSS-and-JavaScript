@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>This Button Takes you to Google</h1>
+    <a href="https://www.google.com">
+    <button   title="This Button takes you to Google" style="color: greenyellow; background-color: black; border-radius: 5px; font:30px Arial, sans-serif; padding: 10px;"> Click Me! </button>
+    </a>
+
+    <br><br>
+    <button onclick="testfunc()" title="Click and Find Out!" style="color: greenyellow; background-color: black; border-radius: 5px; font:30px Arial, sans-serif; padding: 10px;"> Click and Find Out! </button>
+
+    <h2 id="test"> Hello! Now you see me... </h2>
+
+    <script>
+        function testfunc() {
+                document.getElementById("test").innerHTML = "Now you don't >:)"
+        }
+    </script>
+
+</body>
+</html>

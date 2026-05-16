@@ -1,0 +1,201 @@
+header{
+    background-color: lightslategray;
+    height: 50px;
+}
+footer{
+    background-color: lightslategray;
+    height: 75px
+}
+body{
+    background-color: lightgray;
+}
+#h1{
+    color: blue;
+}
+#p1{
+    border-bottom: 3px Dashed Red ;
+    border-left: 3px Solid Green ;
+    border-right: 3px Dotted Blue ;
+    border-top: 3px double Yellow ;
+}
+#h2{
+    /* border-width: 3px;
+    border-style: Solid;
+    border-color: black; */
+    border: 3px Solid Black; /* (width, style, colour in one line) */
+    border-radius: 10px;
+    width: max-content;
+}
+#shadow{
+    /* Creates Shadowing Horizontal, Vertical and Blur (In This Order Below) */
+    text-shadow: 3px 3px 5px red, -3px -3px 5px mediumaquamarine; 
+}
+#box1{
+   width: 200px; 
+   height: 200px;
+   background-color: lightgreen;
+   box-shadow: 3px 3px 5px black;
+   font-size: 4em;
+}
+.box{
+   border: 5px solid;
+   width: 300px;
+   height: 300px;
+   font-size: 50px;
+   margin: 50px;
+   /* Styling which affects all the Elements with the "box" class */
+
+}
+#box2{
+    background-color: red;
+    margin: auto;
+    /* An Auto Margin keeps the Element in the Middle no matter how large the Browser Window */
+}
+#box3{
+    background-color: rgb(39, 164, 241);
+    margin-left: 50px;
+    /* A left margin creates a seperation on the left side of the Element and Vice Versa for a Top, Bottom and Right Margin */
+}
+#img1{
+   float: left;
+   margin-right: 30px;
+}
+#img2{
+    float: right;
+    margin-left: 30px;
+}
+#body1{
+    border:3px solid;
+    display: flow-root;
+}
+#div1{
+    border: 2px solid;
+    height: 75px;
+    overflow: auto;
+    /* There are other overflow syntax such as Hidden, Clip and Scroll */
+}
+#div2{
+    background-color: red;
+}
+#span1{
+    background-color: rgb(39, 164, 241);
+}
+#div3{
+    background-color: red;
+    display: Inline;
+}
+#span2{
+    background-color: rgb(39, 164, 241);
+    display: Block;
+}
+#div4{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+#box4{
+    background-color: aqua;
+    width: 250px;
+    height: 250px;
+    font-size: 40px;
+    position: relative;
+    left: 100px;
+    top: 0px;
+}
+#box5{
+    background-color: rgb(240, 60, 29);
+    width: 200px;
+    height: 200px;
+    font-size: 40px;
+    position: fixed;
+    left: 100px;
+    top: 300px;
+}
+#box6{
+    background-color: rgb(29, 240, 64);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    font-size: 25px;
+}
+#body2{
+    background-image: url(assets2/marc-olivier-jodoin-MJv31qXqSOU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center; /*  Keeps the Picture Centred */
+    background-size: cover; /*  The Background Picture covers the entire window */
+    background-attachment: fixed; /*  Keeps the Picture Fixed During Scrolling */
+    color: rgb(255, 255, 255); /*  Font Colour */
+}
+#container{
+    border: 2px solid;
+}
+#container + p{
+    background-color: yellow;
+}
+#button1{
+    font-size: 25px;
+}
+#button1:hover{
+    font-size: 50px;
+    background-color: greenyellow;
+}
+#button1:active{
+    font-size: 50px;
+    background-color: rgb(255, 71, 47);
+}
+#div5 li:hover{
+    background-color: yellow;
+    font-size: 30px;
+    width: 220px;
+}
+#div5 li:not(hover){
+    background-color: rgb(182, 182, 178);
+    font-size: 20px;
+    width: 200px;
+}
+#div6 li:nth-child(3n+2){
+    background-color: hsl(60, 100%, 78%);
+    font-size: 20px;
+}
+#div7 p{
+    background-color: rgb(95, 248, 64);
+    padding: 10px;
+    display: none;  
+}
+#div7:hover p{
+    display: block;
+    font-size: 30px;
+    width: 350px;
+}
+#big::first-letter{
+    font-size: 60px;
+}
+p::first-line{
+    background-color: greenyellow;
+}
+p::selection{  /* Refers to when you higlight text with your cursor */
+    background-color: rgb(0, 0, 0);
+    color: rgb(43, 255, 0);
+}
+#fruit{
+    font-size: 30px;
+}
+#fruit li::first-letter {
+    font-size: 40px size ;
+    background-color: rgb(19, 19, 18);
+}
+#fruit li::before{
+    content: "✅";
+}
+#apple::after{
+    content: "🍎";
+}
+#banana::after{
+    content: "🍌";
+}
+#orange::after{
+    content: "🍊";
+}

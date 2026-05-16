@@ -23,3 +23,7 @@
 ## Day 5
 - Going through the Odin Project and Ive finally hit the First Project Checkpoint. A Recipe Website made with just HTML (Thats all I really know up to this Point). 
 - Today I worked on 3 Breakfast and 3 Lunch Recipes all equiped with Ingredients, Steps and best of all PICTURES. We all love a good picture Don't We.
+
+## Day 6
+- Starting to learn the Basics of CSS and have made a Dedicated Webpage within the My GitHub Deployment (Link on the right side of your Screen)
+- Went through basic concepts such as **Different Types of Styling, Borders, Shadows and Margins** and all the Code that makes it function is shown with it

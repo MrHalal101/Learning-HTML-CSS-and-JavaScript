@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <a href="home.html"> This takes you back to the Home Page </a>   
+    
+<h1><ins>Combinators</ins> = explains the relationship between listed selectors</h1>
+
+<h2>  = descendant</h2>
+<h2>> = child</h2>
+<h2>~ = general sibling</h2>
+<h2>+ = adjacent sibling</h2>
+
+<div id="container">
+    <p>This is #1</p>
+    <p>This is #2</p>
+    <div>
+        <p>This is #3</p>
+    </div>
+</div>
+
+<p>This is #4</p>
+<p>This is #5</p>
+
+<br>
+<h2><ins>Overview</ins></h2>
+<img src="assets2/overview.png">
+
+<br>
+<h2><ins>Descendents:</ins> Affects all in the div. Can be thought of as Children and Grandchildren</h2>
+<img src="assets2/descend_input.png">
+<img src="assets2/descend_output.png" style="display: block;">
+
+<br>
+<h2><ins>Child:</ins> Affects only the elements in the First div. Only the Children but NOT the Grandchildren</h2>
+<img src="assets2/child_input.png">
+<img src="assets2/child_output.png" style="display: block;">
+
+<br>
+<h2><ins>General Siblings:</ins> Affects outside the div which are NOT in another div. Can be thought of as Siblings not Neices/Nephews</h2>
+<img src="assets2/general_input.png">
+<img src="assets2/general_output.png" style="display: block;">
+
+<br>
+<h2><ins>Adjecent Siblings:</ins> Affects Next Element which is NOT in another div. Can be thought of as the Closest Siblings</h2>
+<img src="assets2/adjacent_input.png">
+<img src="assets2/adjacent_output.png" style="display: block;">
+
+
+<br>
+<h1><ins>Pseudo Classes</ins></h1>
+<h2>You can give Certain Elelements such as Links and Buttons Classes such as Hover and Active</h2>
+<h2>Hover gives functionality to the Element when you Hover over it</h2>
+<h2>Active gives functionality to the Element while your Pressing/Holding down on it</h2>
+
+<!-- ------------------------------------------------------------------------------------- -->
+<br>
+<h2><ins>Example:</ins></h2>
+<img src="assets2/hoverbutton_input.png">
+<img src="assets2/hover_active.png">
+
+
+<a href="https://youtube.com" target="_blank" style="display: block;">
+<br>
+<button id="button1">
+    Click Me!
+</button>
+</a>
+<!-- ------------------------------------------------------------------------------------- -->
+
+<h2><ins>Some more examples of using the Hover and Active Classes</ins></h2>
+
+<img src="assets2/list_hover1.png">
+<img src="assets2/list_hover2.png">
+<div id=div5>
+    <ul>
+        <li>This is #1</li>
+        <li>This is #2</li>
+        <li>This is #3</li>
+        <li>This is #4</li>
+        <li>This is #5</li>
+        <li>This is #6</li>
+        <li>This is #7</li>
+        <li>This is #8</li>
+        <li>This is #9</li>
+    </ul>
+</div>
+
+<br><br>
+<img src="assets2/list_nth1.png">
+<img src="assets2/list_nth2.png" style="display: block;">
+<div id=div6>
+    <ul>
+        <li>This is #1</li>
+        <li>This is #2</li>
+        <li>This is #3</li>
+        <li>This is #4</li>
+        <li>This is #5</li>
+        <li>This is #6</li>
+        <li>This is #7</li>
+        <li>This is #8</li>
+        <li>This is #9</li>
+    </ul>
+</div>
+
+<br>
+<h2><ins>Final Example</ins></h2>
+
+<img src="assets2/hover_here1.png">
+<img src="assets2/hover_here2.png" style="display: block;">
+
+<br>
+<div id="div7">
+    Hover Here!
+        <p>Hi there, how you doing?</p>
+</div>
+<br><br><br><br>
+
+<h1 id="big"><ins>Pseudo Elements</ins></h1>
+<h2>A keyword added after a selector that is used to style a specific part of an element</h2>
+<h2>eg. selector::pseudo element </h2>
+
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aut odio dolorem culpa, iure reiciendis cupiditate molestias modi repellendus facere, quibusdam et eveniet possimus ducimus maiores perferendis repellat exercitationem inventore.</p>
+
+<ul id="fruit">
+    <li id="apple">Apple</li>
+    <li id="banana">Banana</li>
+    <li id="orange">Orange</li>
+</ul>
+
+</body>
+</html>

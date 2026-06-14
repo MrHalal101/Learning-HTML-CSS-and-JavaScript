@@ -27,3 +27,9 @@
 ## Day 6
 - Starting to learn the Basics of CSS and have made a Dedicated Webpage within the My GitHub Deployment (Link on the right side of your Screen)
 - Went through basic concepts such as **Different Types of Styling, Borders, Shadows and Margins** and all the Code that makes it function is shown with it
+
+## Day 7
+- Continued on with new content today with topics such as **Overflowing Text, Floating text and Display Properties**. With this I am now able to alter the movement of elements/objects when I scroll through teh webpage. also I am able to wrap text around image with Floating text.
+
+## Day 8 
+- Today was quite fun in terms of what I newly learned. The topics covered today were **Backgound Images for Webpages, Combinators, Pseudo Classes and Pseudo Elelments**. I explain every single concept I learn (in my own words) in my Website which is linked in my GitHub Page. Pseudo Classes was Fun to see it work as it added some real Functionality to the Mostly Static Webpages i've been making so far

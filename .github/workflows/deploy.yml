@@ -1,0 +1,15 @@
+name: first_deploy
+
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    job1:
+        name: job
+        runs-on: unbuntu-latest
+
+        steps:
+            - name: hello
+              run: echo hello world

@@ -199,3 +199,56 @@ p::selection{  /* Refers to when you higlight text with your cursor */
 #orange::after{
     content: "🍊";
 }
+
+.pagination{
+    text-align: center;
+}
+/* Adding a before the {} meaning it will affect all links */
+.pagination a{
+    color: black;
+    /* This eliminates the underline that all linked elements have */
+    text-decoration: none;
+    padding: 8px 15px;
+    /* This allows me to adjust the height and width of the elements */
+    display: inline-block;
+}
+.pagination a.active{
+    background-color: lightgreen;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pagination a.hover:not(.active){
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+.dropdown button{
+    background-color: slategrey;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    /* Cursor turns into pointer when hovering over the element */
+}
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    /* removes the underline beneath the linked elements */
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    background-color: white;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px black;
+}
+.dropdown:hover .content{
+    display: block;
+    background-color: lightgrey;
+}
+.dropdown a:hover{
+    background-color: lightgray;
+}
+

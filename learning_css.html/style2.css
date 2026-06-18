@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+}
+body{
+    margin: 0px;
+}
+.web_text{
+    margin: 30px;
+}
+.navbar ul{
+    background-color: rgb(61, 61, 61);
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+.navbar a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    padding: 15px;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(100, 100, 100);
+}
+.gallery{
+    display: inline-block;
+    border: 3px solid black;
+    margin: 5px;
+
+}
+.gallery .description{
+    text-align: center;
+    padding: 10px;
+}
+.gallery:hover{
+    border: 3px solid rgb(150, 150, 150);
+}

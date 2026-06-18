@@ -201,6 +201,7 @@ p::selection{  /* Refers to when you higlight text with your cursor */
 }
 
 .pagination{
+    display: inline-block;
     text-align: center;
 }
 /* Adding a before the {} meaning it will affect all links */
@@ -222,13 +223,22 @@ p::selection{  /* Refers to when you higlight text with your cursor */
     border-radius: 5px;
 }
 
+/*-------------------------------------------------------------*/
+.dropdown{
+    display: inline-block;
+}
 .dropdown button{
-    background-color: slategrey;
+    font-size: 15px;
+    background-color: rgb(177, 177, 177);
     color: black;
     border: none;
     padding: 10px 15px;
     cursor: pointer;
     /* Cursor turns into pointer when hovering over the element */
+}
+.dropdown:hover button{
+    background-color: rgb(150, 150, 150);
+    /* Changes the colour of the button when hovering */
 }
 .dropdown a{
     display: block;
@@ -246,7 +256,6 @@ p::selection{  /* Refers to when you higlight text with your cursor */
 }
 .dropdown:hover .content{
     display: block;
-    background-color: lightgrey;
 }
 .dropdown a:hover{
     background-color: lightgray;

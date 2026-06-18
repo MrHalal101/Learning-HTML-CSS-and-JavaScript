@@ -3,7 +3,7 @@
 ## Intro/Day 1
 - Learning how to implement Structure, Styling and Functionality in a Webpage
 - My Goal is to create a Fully-Functional Webpage and Deploy it to GitHub Pages
-- I will be utilising Resources such as "The Odin Project" and "freeCodeCamp"
+- I will be utilising Resources such as **"The Odin Project"** and **"freeCodeCamp"**
 - I will also document all my progress below, so stay tuned!
 
 ## Day 2
@@ -21,8 +21,8 @@
 - All of this can be found on my Wesbite where I document it all
 
 ## Day 5
-- Going through the Odin Project and Ive finally hit the First Project Checkpoint. A Recipe Website made with just HTML (Thats all I really know up to this Point). 
-- Today I worked on 3 Breakfast and 3 Lunch Recipes all equiped with Ingredients, Steps and best of all PICTURES. We all love a good picture Don't We.
+- Going through the Odin Project and Ive finally hit the First Project Checkpoint. **A Recipe Website made with just HTML (Thats all I really know up to this Point)**. 
+- Today I worked on **3 Breakfast and 3 Lunch Recipes** all equiped with Ingredients, Steps and best of all PICTURES. We all love a good picture Don't We.
 
 ## Day 6
 - Starting to learn the Basics of CSS and have made a Dedicated Webpage within the My GitHub Deployment (Link on the right side of your Screen)
@@ -33,3 +33,9 @@
 
 ## Day 8 
 - Today was quite fun in terms of what I newly learned. The topics covered today were **Backgound Images for Webpages, Combinators, Pseudo Classes and Pseudo Elelments**. I explain every single concept I learn (in my own words) in my Website which is linked in my GitHub Page. Pseudo Classes was Fun to see it work as it added some real Functionality to the Mostly Static Webpages i've been making so far
+
+## Day 9 
+- During Day 9, I was able to go through some new content with the Tutorial/Course that I'm going through. The Topics covered were nice in the sense that I could Integrate them into Real Pojects. The Topics were **Pagination(Page Numbers at the bottom) and Dropdown Menus**. All of this was using HTML and CSS styling. These can all be found in my GitHub Deployment in the CSS page (Link on the Right of the Screen)
+
+## Day 10
+- Continued with the CSS content going through the course where we used HTML & CSS in order to make a **Navigation Bar (Easy Navigation to pages) and an Image Gallery (Can be found in the Products Page)**. I am slowly Increasing my knowledge of these components of a Webpage with the goal of designing the Main Page of my GitHub Deployment Home Page.
